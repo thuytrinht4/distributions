@@ -129,7 +129,7 @@ class Binomial(Distribution):
         return x, y
 
     def __add__(self, other):
-        """Function to add together two Binomial distributions with equal p
+        """Function to add together two Binomial py_distributions with equal p
         Args:
             other (Binomial): Binomial instance
         Returns:
@@ -154,7 +154,7 @@ class Binomial(Distribution):
         Returns:
             string: characteristics of the Gaussian
         """
-        # with the values replaced by whatever the actual distributions values are
+        # with the values replaced by whatever the actual py_distributions values are
         # The method should return a string in the expected format
         return "mean {}, standard deviation {}, p {}, n {}". \
             format(self.mean, self.stdev, self.p, self.n)

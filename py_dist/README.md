@@ -1,9 +1,9 @@
-**py_dist** is a Python module for dealing with statistical distributions: 
+**distributions** is a Python module for dealing with statistical distributions: 
 Gaussian and Binomial. The main functions to compute mean, standard deviation, 
 probability density function and plot the distribution of an input dataset 
 that have Gaussian or Binomial distribution.
 
-The project is packaged and host on: [PyPi](https://pypi.org/project/py-dist/0.1/)
+The project is packaged and host on: [PyPi](pypi link)
 
 ## Installation
 ### Dependencies
@@ -16,10 +16,10 @@ distributions requires:
 If you already have a working installation of numpy and matplotlib, the easiest way to install
 distributions is using `pip`
 
-    pip install -U py-dist
+    pip install -U distributions
 
 ### Source code
-The source code is stored in module `py_dist/`
+The source code is stored in module `distributions/`
 
 ### Testing
 After installation, you can launch the test suite outside the source directory 

@@ -1,12 +1,12 @@
 class Distribution:
 
     def __init__(self, mu=0, sigma=1):
-        """ Generic distributions class for calculating and
-        visualizing a probability distributions.
+        """ Generic py_distributions class for calculating and
+        visualizing a probability py_distributions.
 
         Attributes:
-            mean (float) representing the mean value of the distributions
-            stdev (float) representing the standard deviation of the distributions
+            mean (float) representing the mean value of the py_distributions
+            stdev (float) representing the standard deviation of the py_distributions
             data_list (list of floats) a list of floats extracted from the data file
             """
 

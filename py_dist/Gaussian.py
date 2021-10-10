@@ -4,12 +4,12 @@ from .General import Distribution
 
 
 class Gaussian(Distribution):
-    """ Gaussian distributions class for calculating and
-    visualizing a Gaussian distributions.
+    """ Gaussian py_distributions class for calculating and
+    visualizing a Gaussian py_distributions.
 
     Attributes:
-        mean (float) representing the mean value of the distributions
-        stdev (float) representing the standard deviation of the distributions
+        mean (float) representing the mean value of the py_distributions
+        stdev (float) representing the standard deviation of the py_distributions
         data_list (list of floats) a list of floats extracted from the data file
 
     """
@@ -98,7 +98,7 @@ class Gaussian(Distribution):
         plt.ylabel('count')
 
     def pdf(self, x):
-        """Probability density function calculator for the gaussian distributions.
+        """Probability density function calculator for the gaussian py_distributions.
 
         Args:
             x (float): point for calculating the probability density function
@@ -158,13 +158,13 @@ class Gaussian(Distribution):
 
     def __add__(self, other):
 
-        """Function to add together two Gaussian distributions
+        """Function to add together two Gaussian py_distributions
 
         Args:
             other (Gaussian): Gaussian instance
 
         Returns:
-            Gaussian: Gaussian distributions
+            Gaussian: Gaussian py_distributions
 
         """
 
